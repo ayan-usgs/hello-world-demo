@@ -1,4 +1,4 @@
-@Library(value='DemoLibrary', changelog=false) _
+@Library(value='PipelineLibs', changelog=false) _
 
 pipeline {
     agent {
