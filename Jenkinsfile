@@ -10,7 +10,7 @@ pipeline {
         pollSCM('H/5 * * * *')
     }
     stages {
-        stage('do a build') {
+        stage('build stage') {
             steps {
                 demoPipeline()
             }
